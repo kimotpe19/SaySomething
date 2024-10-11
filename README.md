@@ -14,7 +14,7 @@ SaySomething is a simple cowsay-inspired program that generates given text in a 
 - Git
   
 - Something that can run JVM
-  - ...along with that obviously JVM
+  - ...along with that obviously JDK
  
 - Some sort of terminal (or another environment like BlueJ)
 
