@@ -1,4 +1,4 @@
-//Program: SaySomething
+// Program: SaySomething
 // Description: A cowsay-inspired program that displays the inputted text in a speech bubble.
 
 import java.util.Scanner; // Imports Scanner utility.
