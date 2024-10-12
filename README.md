@@ -31,3 +31,16 @@ SaySomething is a simple cowsay-inspired program that generates given text in a 
 ```java SaySomething```
 
 The program should now pop up!
+
+## Information
+- Although you can exit using `Ctrl+C`, it's miles easier to just use the built in command in the program, `!exit`!
+- To use it, just type `!exit` whenever it asks for you to type something.
+  - It will throw something that says:
+    ```Are you sure you want to exit? (y/n)```
+      - To exit, type Y or y.
+
+## Known issues
+
+### Typing a message that is less than 3 letters
+- Reason it's doing such: Way program works
+- Will be fixed: Some time soon.
