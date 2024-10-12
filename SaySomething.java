@@ -9,6 +9,7 @@ public class SaySomething {
         // Startup information
         System.out.println("SaySomething"); 
         System.out.println("(0) 2024 kimotpe19. No rights reserved.");
+        System.out.println("This program is licensed under the MIT License.");
 
         // Main program
         while (true) {
