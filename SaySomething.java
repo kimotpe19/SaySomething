@@ -27,11 +27,18 @@ public class SaySomething {
                 }
             } else {
                 int boxlength = say.length();
-                System.out.println(" " + "_".repeat(boxlength)); // Adds a blankspace & repeats "_" with variable boxlength.
-                System.out.println("/" + " ".repeat(boxlength) + "\\");
-                System.out.println("|" + say + "|");
-                System.out.println("\\" + "_".repeat(boxlength - 3) + "  /"); // Repeats "_" via boxlength except subtracted by 3.
-                System.out.println(" ".repeat(boxlength - 2) + "\\/");  
+                if (boxlength <= 2) {
+                    System.out.println(" " + "_".repeat(boxlength));
+                    System.out.println("/" + " ".repeat(boxlength) + "\\");
+                    System.out.println("|" + say + "|");
+                    System.out.println(" " + "\\/");
+                } else {
+                    System.out.println(" " + "_".repeat(boxlength)); // Adds a blankspace & repeats "_" with variable boxlength.
+                    System.out.println("/" + " ".repeat(boxlength) + "\\");
+                    System.out.println("|" + say + "|");
+                    System.out.println("\\" + "_".repeat(boxlength - 3) + "  /"); // Repeats "_" via boxlength except subtracted by 3.
+                    System.out.println(" ".repeat(boxlength - 2) + "\\/");
+                }
             }
         }
 
