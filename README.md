@@ -38,9 +38,3 @@ The program should now pop up!
   - It will throw something that says:
     ```Are you sure you want to exit? (y/n)```
       - To exit, type Y or y.
-
-## Known issues
-
-### Typing a message that is less than 3 letters
-- Reason it's doing such: Way program works
-- Will be fixed: Some time soon.
